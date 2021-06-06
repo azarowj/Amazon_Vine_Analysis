@@ -2,6 +2,7 @@
 
 ## Overview of the Analysis
 
+Amazon has a paid program called Amazon Vine. This program allows manufacturers and publishers to receive reviews for their products. Companies pay a fee to Amazon and provide their products to Amazon Vine members, who in turn are then required to publish a review. In this project, we will use a dataset containing reviews for a specific product. We then used PySpark to perform the ETL process. We then used Pandas to determine if there is any bias toward favorable reviews from Vine members in the dataset.
 
 ## Results
 
