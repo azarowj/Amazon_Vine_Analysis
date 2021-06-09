@@ -6,12 +6,12 @@ Amazon has a paid program called Amazon Vine. This program allows manufacturers 
 
 ## Results
 
-- There were 0 Vine reviews
-- There were 403,807 non-Vine reviews
-- Since there were 0 Vine reviews, 0 Vine reviews were 5 stars
-- There were 242,889 5-star non-Vine reviews
-- Since there were 0 Vine reviews, 0% were 5 stars
-- Approximately 60% of non-Vine reviews were 5 stars
+- There were 261 Vine reviews
+- There were 24,040 non-Vine reviews
+- There were 106 5-star Vine reviews
+- There were 10,899 5-star non-Vine reviews
+- Approximately 41% of Vine reviews were 5 stars
+- Approximately 45% of non-Vine reviews were 5 stars
 
 ## Summary
-This particular dataset does not show any positivity bias for reviews in the Vine program. After filtering our data, our data frame contained 0 reviews from the Vine program. I went back to the original dataframe and filtered it for reviews in the Vine program. The original dataset only contained 2 reviews from the Vine program, which can be seen [here](https://github.com/azarowj/Amazon_Vine_Analysis/blob/main/VineProgram.png). If I wanted to look further into the possibility of positivity bias in the Vine program, I would need to do this analysis over with a different dataset.
+This particular dataset does not show any positivity bias for reviews in the Vine program. The percentage of 5-star reviews from people in the Vine program is actually 4% less than that of people not in the Vine program. If positivity bias existed, we would expect to see the percentage of 5-star ratings be higher from people in the Vine program. I would also want to look into the average ratings, from people in the Vine program versus people not in the Vine program. Another indicator of positivity bias could be an overall higher average rating. I would be curious to see if there were any 1-star reviews from people in the Vine program in the filtered dataset.
